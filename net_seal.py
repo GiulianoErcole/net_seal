@@ -90,7 +90,7 @@ def _iptables_header_lines() -> List[str]:
         "iptables -X",
         "iptables -P INPUT DROP",
         "iptables -P FORWARD DROP",
-        # We'll default OUTPUT to DROP at the end, after we add allow rules.
+    
         "iptables -P OUTPUT ACCEPT",
         "",
         "# allow loopback",

@@ -162,4 +162,3 @@ MIT License
 - YAML/JSON export  
 - Undo/rollback generator  
 - TUI interface  
-- Integration with NERON SecureOps Suite  
